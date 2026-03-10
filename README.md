@@ -47,8 +47,8 @@ After transcription, StreamInsight generates structured metadata using schema-en
 
 Supports multiple LLMs:
 
-OpenAI
-Google Vertex AI
+* OpenAI
+* Google Vertex AI
 
 Generated insights include:
 
