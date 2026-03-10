@@ -116,6 +116,9 @@ F[Vertex AI Speech]
 
 G[LLM Insight Generator]
 
+I[OpenAI]
+J[Vertex AI]
+
 H[Structured Metadata Output]
 
 A --> B
@@ -125,7 +128,10 @@ D --> E
 D --> F
 E --> G
 F --> G
-G --> H
+G --> I
+G --> J
+I --> H
+J --> H
 ```
 
 The architecture demonstrates a modern AI-enhanced media processing pipeline built around a scalable API layer.
