@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+python-dotenv
+httpx
+openai>=1.0.0
+google-cloud-aiplatform
+pytest
+pytest-asyncio
