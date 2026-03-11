@@ -199,6 +199,12 @@ Key design goals include:
 
 # Author
 
-© 2026 Gordon Pusnik. All rights reserved.
+Gordon Pusnik
 
 StreamInsight was designed as a demonstration of modern AI-powered video intelligence pipelines and microservice architecture.
+
+---
+
+# License
+
+© 2026 Gordon Pusnik. All rights reserved.
