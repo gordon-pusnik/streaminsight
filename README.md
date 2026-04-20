@@ -204,7 +204,7 @@ This project includes a `csharp-app/` folder with two C# clients for the StreamI
 * **StreamInsightUI**: Windows WPF desktop app
 * **StreamInsightClient**: console app
 
-Both clients target the FastAPI service at `http://localhost:9000` and provide a simple way to upload videos and view results.
+Both clients target the FastAPI service at `http://localhost:8002` and provide a simple way to upload videos and view results.
 
 See `csharp-app/README.md` for prerequisites and run instructions.
 
