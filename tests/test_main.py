@@ -7,6 +7,16 @@ from app.main import app
 
 client = TestClient(app)
 
+def test_service_info():
+    response = client.get("/")
+    assert response.status_code == 200
+
+    data = response.json()
+    assert data["service"] == "StreamInsight AI Service"
+    assert data["version"] == "0.1.0"
+    assert "endpoints" in data
+    assert {"method": "GET", "path": "/health", "description": "Health check endpoint."} in data["endpoints"]
+
 def test_health():
     response = client.get("/health")
     assert response.status_code == 200
