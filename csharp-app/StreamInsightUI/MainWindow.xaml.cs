@@ -15,7 +15,7 @@ namespace StreamInsightUI
 {
     public partial class MainWindow : Window
     {
-        private static readonly HttpClient client = new HttpClient { BaseAddress = new Uri("http://localhost:9000") };
+        private static readonly HttpClient client = new HttpClient { BaseAddress = new Uri("http://192.168.250.111:8002") };
         private string? selectedFilePath;
 
         public MainWindow()

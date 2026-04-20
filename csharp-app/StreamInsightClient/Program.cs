@@ -12,7 +12,7 @@ namespace StreamInsightClient
 {
     internal class Program
     {
-        private static readonly HttpClient client = new HttpClient { BaseAddress = new Uri("http://localhost:9000") };
+        private static readonly HttpClient client = new HttpClient { BaseAddress = new Uri("http://192.168.250.111:8002") };
 
         static async Task Main(string[] args)
         {
